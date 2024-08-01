@@ -12,14 +12,28 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Cargar la sección de héroe por defecto
-    loadSection('/Server/sections/hero', 'main-content');
+    loadSection('/sections/hero.html', 'main-content');
 
     // Agregar eventos a los enlaces del menú
     document.querySelectorAll('nav ul li a').forEach(link => {
         link.addEventListener('click', function(event) {
             event.preventDefault();
             const section = this.getAttribute('href');
-            loadSection(`/${section}`, 'main-content');
+            loadSection(`/sections/${section}`, 'main-content');
+        });
+    });
+    document.querySelectorAll('div div a').forEach(link => {
+        link.addEventListener('click', function(event) {
+            event.preventDefault();
+            const section = this.getAttribute('href');
+            loadSection(`/sections/${section}`, 'main-content');
+        });
+    });
+    document.querySelectorAll('section div div a').forEach(link => {
+        link.addEventListener('click', function(event) {
+            event.preventDefault();
+            const section = this.getAttribute('href');
+            loadSection(`/sections/${section}`, 'main-content');
         });
     });
 });
