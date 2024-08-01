@@ -1,0 +1,24 @@
+{
+  "name": "unfocusstore",
+  "version": "1.0.0",
+  "description": "UnFocus se dedica a la venta de remeras con temática de animación y dibujos personalizados, enfocándonos en la individualidad y el auto-descubrimiento.",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicoAquino67/UnFocusStore.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicoAquino67/UnFocusStore/issues"
+  },
+  "homepage": "https://github.com/NicoAquino67/UnFocusStore#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
