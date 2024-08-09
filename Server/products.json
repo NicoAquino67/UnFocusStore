@@ -1,0 +1,16 @@
+[
+    {
+      "id": 1,
+      "name": "Remera 1",
+      "price": 20.00,
+      "image": "images/Army/Persona 1.png",
+      "description": "Descripción de Remera 1"
+    },
+    {
+      "id": 2,
+      "name": "Remera 2",
+      "price": 25.00,
+      "image": "images/Negro/Persona 1.png",
+      "description": "Descripción de Remera 2"
+    }
+  ]
